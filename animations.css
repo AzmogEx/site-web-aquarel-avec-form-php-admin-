@@ -1,0 +1,15 @@
+/* Animation d'apparition des images */
+@keyframes image-appear {
+    from {
+      transform: translateY(100%); /* Commencer l'animation en déplaçant l'image vers le bas */
+    }
+    to {
+      transform: translateY(0); /* Terminer l'animation avec l'image à sa position d'origine */
+    }
+  }
+  
+  /* Appliquer l'animation aux éléments avec la classe "image-appear" */
+  .image-appear {
+    animation: image-appear 0.5s ease-out; /* Durée de l'animation : 0.5 seconde */
+  }
+  

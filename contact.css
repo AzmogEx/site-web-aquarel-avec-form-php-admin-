@@ -1,0 +1,55 @@
+/* Fichier CSS spécifique au formulaire de contact */
+.contact-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  form {
+    width: 70%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 2; /* Le formulaire prend 2 parts sur 3 dans le conteneur flex */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #ff98ca; /* Rose clair */
+    outline: none;
+  }
+  
+  button {
+    background-color: #ff98ca; /* Rose clair */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff6b9d; /* Rose plus foncé au survol */
+  }
+  

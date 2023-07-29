@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Ma Galerie d'Aquarelles</title>
+  <!-- Lien vers un fichier CSS externe pour le style -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animations.css"> <!-- Inclure le fichier des animations -->
+  
+  <!-- Ajout du style pour la bulle de connexion -->
+  <style>
+    /* Le reste de vos styles */
+
+    /* Styles pour la bulle de connexion */
+    .connexion-bubble {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #4CAF50; /* Couleur de fond de la bulle */
+      color: white; /* Couleur du texte */
+      padding: 10px 20px;
+      border-radius: 50%; /* Pour créer un cercle */
+      cursor: pointer;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Ombre légère */
+      z-index: 999; /* Pour afficher la bulle au-dessus du contenu */
+    }
+
+    /* Le reste de vos styles */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ma Galerie d'Aquarelles</h1>
+  </header>
+
+
+  <nav>
+    <!-- Liens vers d'autres pages de votre site (à remplacer avec les liens réels) -->
+    <a href="index.html">Accueil</a>
+    <a href="gallery.html">Galerie</a>
+    <a href="about.html">À Propos</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <section class="gallery">
+      <div class="artwork">
+        <img class="image-appear" src="chemin/vers/votre/image1.jpg" alt="Aquarelle 1">
+        <h3>Nom de l'aquarelle 1</h3>
+      </div>
+      <div class="artwork">
+        <img class="image-appear" src="chemin/vers/votre/image2.jpg" alt="Aquarelle 2">
+        <h3>Nom de l'aquarelle 2</h3>
+      </div>
+      <!-- Ajoutez d'autres éléments d'image avec la classe "image-appear" -->
+      
+    </section>
+  </main>
+
+  <!-- Ajout de la bulle de connexion -->
+  <div class="connexion-bubble" onclick="openAdminPage()">
+    <span>Connexion Admin</span>
+  </div>
+
+  <footer>
+    <p>Tous droits réservés © 2023 Mathieu</p>
+  </footer>
+  
+  <!-- Script pour l'animation des images à l'apparition -->
+  <script src="animations.js"></script>
+
+  <!-- Script pour gérer le clic sur la bulle de connexion -->
+  <script>
+    function openAdminPage() {
+      window.location.href = "admin.html"; // Redirige vers la page admin.php
+    }
+  </script>
+  
+</body>
+</html>

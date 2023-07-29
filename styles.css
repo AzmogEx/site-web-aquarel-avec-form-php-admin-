@@ -1,0 +1,443 @@
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  nav {
+    background-color: #444;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    color: #ffcc00;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .artwork {
+    text-align: center;
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .artwork h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #444;
+    color: #fff;
+  }
+
+  /* Styles spécifiques pour la page de contact */
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 20px;
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; /* Crée un effet de cercle pour l'image de profil */
+  border: 5px solid #fff; /* Bordure blanche autour de l'image */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce pour l'image */
+}
+
+.presentation {
+  text-align: justify;
+}
+
+.presentation h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styles supplémentaires pour maintenir la cohérence avec le reste du site */
+/* Ajoutez ici d'autres styles pour les autres éléments de votre site */
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fff4f7; /* Couleur de fond légèrement rose */
+}
+
+header {
+  background-color: #f72585; /* Rose vif */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+nav {
+  background-color: #ff70a6; /* Rose clair */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #ff3f7a; /* Rose vif au survol */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.artwork {
+  text-align: center;
+}
+
+.artwork img {
+  max-width: 100%;
+  border: 1px solid #ff70a6; /* Rose clair */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.artwork h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #f72585; /* Rose vif */
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 20px;
+  background-image: linear-gradient(to right, #ff70a6, #f72585); /* Dégradé rose */
+  border-radius: 10px;
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentation {
+  text-align: justify;
+  color: #333; /* Couleur de texte sombre pour une meilleure lisibilité */
+}
+
+.presentation h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #f72585; /* Rose vif */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(to right, #ff70a6, #f72585); /* Dégradé rose */
+  color: #fff;
+  border-top: 1px solid #f72585; /* Ligne rose vif en haut du pied de page */
+}
+/* Réinitialisation des styles par défaut du navigateur */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f2f6f9; /* Couleur de fond douce, évoquant l'eau */
+}
+
+header {
+  background-image: linear-gradient(to right, #a7d0cd, #6cb2c5); /* Dégradé doux de couleurs pastel */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+nav {
+  background-image: linear-gradient(to right, #88aeee, #a7d0cd); /* Dégradé doux de bleus */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #6cb2c5; /* Bleu clair au survol */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+}
+
+.artwork {
+  text-align: center;
+}
+
+.artwork img {
+  max-width: 100%;
+  border: 1px solid #a7d0cd; /* Bordure douce de couleur pastel */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.artwork h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #6cb2c5; /* Bleu clair */
+}
+
+.contact-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 20px;
+  background-image: linear-gradient(to right, #88aeee, #a7d0cd); /* Dégradé doux de bleus */
+  border-radius: 10px;
+}
+
+.profile-picture {
+  text-align: center;
+}
+
+.profile-picture img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.presentation {
+  text-align: justify;
+  color: #333; /* Couleur de texte sombre pour une meilleure lisibilité */
+}
+
+.presentation h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #6cb2c5; /* Bleu clair */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-image: linear-gradient(to right, #88aeee, #a7d0cd); /* Dégradé doux de bleus */
+  color: #fff;
+  border-top: 1px solid #a7d0cd; /* Ligne douce de couleur pastel en haut du pied de page */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6b6b;
+}
+
+.hero {
+  background-color: #f0f3f6;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.about {
+  background-color: #f9fafb;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Add more styles for the other pages (galerie.html, apropos.html, contact.html) as needed */
+
+/* Media query for responsive design (adjust as needed) */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+  }
+
+  nav h1 {
+    font-size: 1.2rem;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  nav.open ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+  
+  
